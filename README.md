@@ -1,0 +1,2 @@
+# PercentRelativeLayout
+There is some problem with those RelativeLayout and FrameLayout since you cannot set Child View's dimension in percentage. Only two ways possible are to put LinearLayout inside and use advantage from its layout_weight LayoutParams and to do it in Java code by overriding onMeasure or so.  For example if I want to place a simple red rectangle on the top-left corner with 5% margin left and 25% width inside RelativeLayout. We have to code like this.
